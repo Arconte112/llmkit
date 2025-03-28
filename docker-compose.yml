@@ -1,8 +1,6 @@
 services:
   backend:
     build: ./backend
-    ports:
-      - "4394:8000"
     volumes:
       - db_data:/app/data
     environment:
